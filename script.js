@@ -11,7 +11,7 @@ memesId.onerror = function() {errorSolve()};
 
 
 function startingMemes() {
-    fetch('https://meme-api.herokuapp.com/gimme/15')
+    fetch('https://meme-api.com/gimme/15')
         .then(response => response.json())
         .then(body => {
             var count = body.count;
